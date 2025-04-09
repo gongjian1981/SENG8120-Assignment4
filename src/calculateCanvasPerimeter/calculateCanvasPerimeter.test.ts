@@ -1,4 +1,4 @@
-import calculateCanvasSize from "./calculateCanvasSize";
+import calculateCanvasSize from "./calculateCanvasPerimeter";
 
 describe("calculateCanvasSize", () => {
   test("returns correct result", () => {
