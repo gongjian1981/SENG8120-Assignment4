@@ -8,7 +8,7 @@ describe("calculateModernisticCanvasSize", () => {
   })
 
   test('should return 0 for length and width of 0', () => {
-    expect(calculateModernisticCanvasSize('0', '0')).toBe([0, 0]);
+    expect(calculateModernisticCanvasSize('0', '0')).toStrictEqual([0, 0]);
   });
 
 });
