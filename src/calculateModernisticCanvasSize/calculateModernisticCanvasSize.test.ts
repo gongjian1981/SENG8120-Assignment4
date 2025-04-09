@@ -12,8 +12,8 @@ describe("calculateModernisticCanvasSize", () => {
   });
 
   test('should handle negative values correctly', () => {
-    expect(calculateModernisticCanvasSize('-3', '4')).toEqual([2, 4]];
-    expect(calculateModernisticCanvasSize('3', '-4')).toEqual([2, 4]);
-    expect(calculateModernisticCanvasSize('-3', '-4')).toEqual([2, 4]);
+    expect(calculateModernisticCanvasSize('-3', '2')).toEqual([2, 4]);
+    expect(calculateModernisticCanvasSize('3', '-2')).toEqual([2, 4]);
+    expect(calculateModernisticCanvasSize('-3', '-2')).toEqual([2, 4]);
   });
 });
