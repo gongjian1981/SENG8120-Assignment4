@@ -1,6 +1,10 @@
+import { parse } from "path";
+
 export default function calculateCanvasSize(
   length: string,
   width: string
 ) {
-  return 2 * (parseInt(length) + parseInt(width));
+  var lengthInt = parseInt(length);
+  var widthInt = parseInt(width);
+  return Math.sqrt(lengthInt*lengthInt + widthInt*widthInt);
 }
