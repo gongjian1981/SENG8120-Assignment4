@@ -1,6 +1,6 @@
 import { parse } from "path";
 
-export default function calculateCanvasSize(
+export default function calculateCanvasDiagonal(
   length: string,
   width: string
 ) {
